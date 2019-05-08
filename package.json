@@ -1,0 +1,24 @@
+{
+  "name": "backoffice-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "github:mysqljs/mysql",
+    "stellar-sdk": "^0.15.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "nodemon": "^1.19.0"
+  }
+}

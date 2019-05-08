@@ -1,0 +1,8 @@
+const backOfficePublic = "GCYEAR7N7JZ5W72TRRTFILLF5QSBDLEEQDOJ4HBQD2RITACLW772N5PC";
+
+const backOfficeSecret = "SDEGVJRZ2DBMXFBJ6VANAE2AH3R6RJNARFPPAFZAGWLFBT5C54KIGM5P";
+
+module.exports = {
+  backOfficePublic,
+  backOfficeSecret
+};
